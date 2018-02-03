@@ -7,7 +7,7 @@
 # Purpose: A program that draws something complex like a house, animal, person
 
 ######################################################################
-# Acknowledgements:
+# Acknowledgement:
 #   Original Author: Dr. Scott Heggen
 ######################################################################
 
