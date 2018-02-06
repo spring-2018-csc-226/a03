@@ -40,7 +40,7 @@ def draw_cloud(turtle,x,y):
         turtle.penup()
         turtle.goto((x+cloud_spread.randrange(10,30,10)),y) #the distance between each circle
         turtle.pendown()
-        draw_cloud_circle(turtle,cloud_spread.randrange(20,40,10)) #the size of each circles
+        draw_cloud_circle(turtle,cloud_spread.randrange(15,40,6)) #the size of each circles
         x = x + cloud_spread.randrange(10,30,5)
         y = y + cloud_spread.randrange(-15,15,5)
 
@@ -51,14 +51,85 @@ def ran_cloud(turtle):
     :return: None
     """
     cloud_pos=random.Random()
-    draw_cloud(turtle, cloud_pos.randrange(-300,300,100),cloud_pos.randrange(100,250,50))
+    draw_cloud(turtle, cloud_pos.randrange(-340,340,100),cloud_pos.randrange(100,250,50))
+
+def draw_ground(ground,curve,hor_line):
+    """
+        Draws ground in the color of grass.
+
+    :param ground: Is the turtle that is going to be used.
+    :param curve: The curvature of the horizon line, the more it is the less curved it is.
+    :param hor_line: The vertical locus of the horizon.
+    :return:
+    """
+    ground.begin_fill()
+    ground.speed(11)
+    ground.hideturtle()
+    ground.color(124,252,0)
+    ground.penup()
+    ground.goto(-350,hor_line)
+    ground.lt(370)
+    ground.pendown()
+    ground.pensize(10)
+    ground.circle(-(curve),360,curve//10)
+    ground.end_fill()
+
+def draw_arc(tort):
+
+    tort.penup()
+    tort.pendown()
+    tort.pensize(25)
+    tort.color(255, 0 , 0)
+    tort.lt(90)
+    tort.penup()
+    tort.goto(-350,-100)
+    tort.pendown()
+    start_turn = 10
+    angle = 5900
+    fd = 30
+    exp =fd/200
+    for i in range (10):
+        tort.rt(start_turn+angle)
+        tort.fd(fd)
+        angle=angle**exp
 
 def main():
-
-    rainbow=turtle.Turtle()
+##########################################################
+    cloud=turtle.Turtle()
     sc=turtle.Screen()
-    sc.bgcolor("Blue")
+    ground=turtle.Turtle()
+    tort=turtle.Turtle()
+    sc.colormode(255)
+###########################################################
+
+    sc.bgcolor(135,206,250)
+    cloud.hideturtle()
+    draw_ground(ground,2000,-100)
     for i in range(9):
-        ran_cloud(rainbow)
+        ran_cloud(cloud)
+###########################################################
+    tort.penup()
+    tort.pendown()
+    tort.pensize(25)
+    tort.color(255, 0 , 0)
+    tort.lt(90)
+    tort.penup()
+    tort.goto(-350,-100)
+    tort.pendown()
+    start_turn = 10
+    angle = 30
+    fd = 100
+    exp =fd/150
+
+
+    for i in range (40):
+        tort.rt(start_turn+angle)
+        tort.fd(fd)
+        angle=angle**exp
+
+
+
+
     sc.exitonclick()
+
 main()
