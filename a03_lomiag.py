@@ -60,3 +60,4 @@ def main():
     sc.bgcolor("Blue")
     for i in range(9):
         ran_cloud(rainbow)
+main()
