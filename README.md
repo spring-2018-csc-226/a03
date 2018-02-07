@@ -9,3 +9,4 @@ Add your name to the list once you've completed this assignment:
 - Montana Hite: https://docs.google.com/document/d/1KqvgKV2ghBVf5Fqs2Q8FX-lJfdl-KjeREUy4J4o1OIo/edit?usp=sharing
 - Jason Cohen:  https://docs.google.com/document/d/1-flXqfuTi4FPskO0TR018E5OAnwTBVKHXHtgIzCKgVc/edit?usp=sharing
 - Miranda Flannery: https://docs.google.com/document/d/10diQs-RoTuoW9kos4l3QjunZxEIl-QkOzN2Qf5EDTvs/edit?usp=sharing
+- Berucha Cintron: https://docs.google.com/document/d/1kfyJ-G5VWIoG2XrIiamuPlMchqtWKsrkaeiaq9oS1ZM/edit?usp=sharing
