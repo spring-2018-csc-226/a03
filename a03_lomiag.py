@@ -74,24 +74,64 @@ def draw_ground(ground,curve,hor_line):
     ground.circle(-(curve),360,curve//10)
     ground.end_fill()
 
-def draw_arc(tort):
-
-    tort.penup()
-    tort.pendown()
-    tort.pensize(25)
-    tort.color(255, 0 , 0)
+def draw_arc(tort,x_start,y_start,red,green,blue,r,ext,speed):
+    """
+        Draws a circular arc.
+    :param tort: Is the turtle that is going to be used.
+    :param x_start: The Starting X position of the arc
+    :param y_start: The Starting Y position of the arc
+    :param red: The amount of red in the color scheme
+    :param green: The amount of green in the color scheme
+    :param blue: The amount of blue in the color scheme
+    :param r: Radius of the arc
+    :param ext: The "roundness" of the arc
+    :param speed: The speed of drawing
+    :return: None
+    """
+    tort.hideturtle()
+    tort.speed(speed)
+    if r <0:
+        tort.pensize(-r/8.4)
+    else:
+        tort.pensize(r/8.4)
+    tort.color(red, green, blue)
     tort.lt(90)
     tort.penup()
-    tort.goto(-350,-100)
+    if r < 0:
+        tort.goto(x_start,y_start)
+    else:
+        tort.goto(-x_start,-y_start)
     tort.pendown()
-    start_turn = 10
-    angle = 5900
-    fd = 30
-    exp =fd/200
-    for i in range (10):
-        tort.rt(start_turn+angle)
-        tort.fd(fd)
-        angle=angle**exp
+
+    tort.circle(r,180,ext)
+
+def draw_rainbow(torty,r,speed):
+    """
+        Draws a rainbow that is centered on the screen, and adjusts to the size on itself.
+    :param torty: Is the turtle that is going to be used.
+    :param r: the radius of the rainbow
+    :param speed: drawing speed
+    :return: None
+    """
+    if r < 0:
+        pens = r/8.4 + 4
+    else:
+        pens = -r/8.4 - 4
+
+    draw_arc(torty,r,-65,255,0,0,r,100,speed)
+    torty.lt(90)
+    draw_arc(torty,r-pens,-65,255,127,0,r-pens,100,speed)
+    torty.lt(90)
+    draw_arc(torty,r-pens-pens-1,-65,255,255,0,r-pens-pens-1,100,speed)
+    torty.lt(90)
+    draw_arc(torty,r-pens-pens-pens/1.2,-65,0, 255, 0,r-pens-pens-pens/1.2,100,speed)
+    torty.lt(90)
+    draw_arc(torty,r-pens-pens-2*(pens/1.22),-65,0, 0, 255,r-pens-pens-2*(pens/1.22),100,speed)
+    torty.lt(90)
+    draw_arc(torty,r-pens-pens-3*(pens/1.3),-65,75, 0, 130,r-pens-pens-3*(pens/1.3),100,speed)
+    torty.lt(90)
+    draw_arc(torty,r-pens-pens-4*(pens/1.5),-65,148, 0, 211,r-pens-pens-4*(pens/1.5),100,speed)
+
 
 def main():
 ##########################################################
@@ -105,28 +145,9 @@ def main():
     sc.bgcolor(135,206,250)
     cloud.hideturtle()
     draw_ground(ground,2000,-100)
-    for i in range(9):
+    for i in range(10):
         ran_cloud(cloud)
-###########################################################
-    tort.penup()
-    tort.pendown()
-    tort.pensize(25)
-    tort.color(255, 0 , 0)
-    tort.lt(90)
-    tort.penup()
-    tort.goto(-350,-100)
-    tort.pendown()
-    start_turn = 10
-    angle = 30
-    fd = 100
-    exp =fd/150
-
-
-    for i in range (40):
-        tort.rt(start_turn+angle)
-        tort.fd(fd)
-        angle=angle**exp
-
+    draw_rainbow(tort,-250,11)
 
 
 
