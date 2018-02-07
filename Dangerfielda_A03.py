@@ -79,8 +79,8 @@ def draw_DeathStarBeam(shape):          #draws the multiple beams of the laser
 
 # def draw_DeathStarCurve(shape):         #would have drawn the bisection of the Death Star
 #     shape.penup()                       #in the interest of time and feasibility I had to leave it like this
-#     shape.setpos(100,125)               #it would reshuffle all the other components
-#     shape.color("dark grey")
+#     shape.setpos(100,125)               #it would reshuffle all the other components each time I'd test it
+#     shape.color("dark grey")            #not sure what I was doing wrong, but I might go back and fix it later
 #     shape.left(90)
 #     shape.pendown()
 #     for side in range (7):
