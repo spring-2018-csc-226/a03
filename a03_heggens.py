@@ -17,6 +17,10 @@ import turtle
 
 
 def draw_house():
+    """
+    Draws red house with a 2 loop
+    :return:
+    """
     house = turtle.Turtle()
     house.pensize(5)
     house.color("firebrick")
@@ -34,6 +38,10 @@ def draw_house():
 
 
 def draw_roof():
+    """
+    Draws roof
+    :return:
+    """
     roof = turtle.Turtle()
     roof.pensize(5)
     roof.color("dimgrey")
@@ -50,6 +58,10 @@ def draw_roof():
 
 
 def draw_door():
+    """
+    Draws door
+    :return:
+    """
     door = turtle.Turtle()
     door.pensize(3)
     door.color('black')
@@ -67,6 +79,10 @@ def draw_door():
 
 
 def draw_window():
+    """
+    Draws five different windows, four square ones and one circular one.
+    :return:
+    """
     window = turtle.Turtle()
     window.pensize(3)
     window.color('white')
@@ -117,6 +133,9 @@ def draw_window():
 
 
 def window_lines():
+    """
+    Draws the lines for all five window
+    """
     lines = turtle.Turtle()
     lines.pensize(3)
     lines.color('black')
@@ -179,6 +198,10 @@ def window_lines():
 
 
 def draw_trees():
+    """
+    Draws a tree and treetop using loops
+    :return:
+    """
     tree = turtle.Turtle()
     tree.pensize(5)
     #1st tree trunk
@@ -211,6 +234,10 @@ def draw_trees():
 
 
 def draw_sun():
+    """
+    Draws a spiral sun using a loop
+    :return:
+    """
     sun = turtle.Turtle()
     sun.pencolor('yellow')
     sun.pensize(5)
