@@ -126,11 +126,11 @@ def draw_rainbow(torty,r,speed):
     torty.lt(90)
     draw_arc(torty,r-pens-pens-pens/1.2,-65,0, 255, 0,r-pens-pens-pens/1.2,100,speed)
     torty.lt(90)
-    draw_arc(torty,r-pens-pens-2*(pens/1.22),-65,0, 0, 255,r-pens-pens-2*(pens/1.22),100,speed)
+    draw_arc(torty,r-pens-pens-1.8*(pens/1.2),-65,0, 0, 255,r-pens-pens-1.8*(pens/1.2),100,speed)
     torty.lt(90)
-    draw_arc(torty,r-pens-pens-3*(pens/1.3),-65,75, 0, 130,r-pens-pens-3*(pens/1.3),100,speed)
+    draw_arc(torty,r-pens-pens-2.6*(pens/1.2),-65,75, 0, 130,r-pens-pens-2.6*(pens/1.2),100,speed)
     torty.lt(90)
-    draw_arc(torty,r-pens-pens-4*(pens/1.5),-65,148, 0, 211,r-pens-pens-4*(pens/1.5),100,speed)
+    draw_arc(torty,r-pens-pens-3.3*(pens/1.2),-65,148, 0, 211,r-pens-pens-3.3*(pens/1.2),100,speed)
 
 
 def main():
@@ -140,6 +140,7 @@ def main():
     ground=turtle.Turtle()
     tort=turtle.Turtle()
     sc.colormode(255)
+    tort.hideturtle()
 ###########################################################
 
     sc.bgcolor(135,206,250)
@@ -147,7 +148,7 @@ def main():
     draw_ground(ground,2000,-100)
     for i in range(10):
         ran_cloud(cloud)
-    draw_rainbow(tort,-250,11)
+    draw_rainbow(tort,-100,11)
 
 
 
