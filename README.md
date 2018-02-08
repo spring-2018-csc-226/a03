@@ -15,3 +15,4 @@ Add your name to the list once you've completed this assignment:
 - Ricardo Santos: https://docs.google.com/document/d/1OjHVQrQryB-ZTt7YiiNVHBCSf6tYc9RAg2gWoCgwpFI/edit?usp=sharing
 - Natasha Stallsmith: https://docs.google.com/document/d/1arZjUhnE0fWoTcjWHgRHPlYoibT02oezWr3i5DsdzdM/edit?usp=sharing
 - Heidi Stetzer: https://docs.google.com/document/d/1JsYgjoaFzSxPbUltIR7fAe2pegmQf-zVrH_lgMN6mgA/edit?usp=sharing
+- Azariah Mawoko:https://docs.google.com/document/d/18vGX0JKuJ5vacjCz8A7MHSJli1x7t6pxqzJDR0Acl7I/edit?usp=sharingAzariah Mawoko: 
