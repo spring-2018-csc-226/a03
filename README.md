@@ -12,3 +12,8 @@ Add your name to the list once you've completed this assignment:
 - Berucha Cintron: https://docs.google.com/document/d/1kfyJ-G5VWIoG2XrIiamuPlMchqtWKsrkaeiaq9oS1ZM/edit?usp=sharing
 - Bethanie Williams: https://docs.google.com/document/d/16pDRgtv5_uqqkM79ycWjitcUnnWi38Y2qfXRwEYXPFs/edit?usp=sharing
 - Jose Cortes: https://docs.google.com/document/d/1YdiW2HPMpLVFuHrhNjXv_anx6TO0SkF2cxc4SMEhMGo/edit?usp=sharing
+- Tayttum Horinet: https://docs.google.com/document/d/1pe1Dz-niIZ2g_Ce7Ml7K7f2SAnLJUtAHOLTNWGNqvkE/edit#
+- Ricardo Santos: https://docs.google.com/document/d/1OjHVQrQryB-ZTt7YiiNVHBCSf6tYc9RAg2gWoCgwpFI/edit?usp=sharing
+- Natasha Stallsmith: https://docs.google.com/document/d/1arZjUhnE0fWoTcjWHgRHPlYoibT02oezWr3i5DsdzdM/edit?usp=sharing
+- Heidi Stetzer: https://docs.google.com/document/d/1JsYgjoaFzSxPbUltIR7fAe2pegmQf-zVrH_lgMN6mgA/edit?usp=sharing
+- Azariah Mawoko:https://docs.google.com/document/d/18vGX0JKuJ5vacjCz8A7MHSJli1x7t6pxqzJDR0Acl7I/edit?usp=sharing
