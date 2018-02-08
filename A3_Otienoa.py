@@ -13,7 +13,7 @@ import turtle
 def draw_vase(turt):
     """
     Helps draw a flower vase that will sit on a table.
-    :param turt: the turtle object from the trutle class instance
+    :param turt: the turtle object from the turtle class instance
     :return: None
     """
     for i in range(2):
