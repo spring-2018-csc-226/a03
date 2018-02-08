@@ -10,3 +10,4 @@ Add your name to the list once you've completed this assignment:
 - Jason Cohen:  https://docs.google.com/document/d/1-flXqfuTi4FPskO0TR018E5OAnwTBVKHXHtgIzCKgVc/edit?usp=sharing
 - Miranda Flannery: https://docs.google.com/document/d/10diQs-RoTuoW9kos4l3QjunZxEIl-QkOzN2Qf5EDTvs/edit?usp=sharing
 - Berucha Cintron: https://docs.google.com/document/d/1kfyJ-G5VWIoG2XrIiamuPlMchqtWKsrkaeiaq9oS1ZM/edit?usp=sharing
+- Bethanie Williams: https://docs.google.com/document/d/16pDRgtv5_uqqkM79ycWjitcUnnWi38Y2qfXRwEYXPFs/edit?usp=sharing
