@@ -92,6 +92,8 @@ def draw_window(turt, side):
             turt.right(90)
             turt.end_fill()
 
+# Scott adding a comment
+
 
 def draw_chair(turt, high):
     """
