@@ -18,3 +18,4 @@ Add your name to the list once you've completed this assignment:
 - Kaleb Robinson: https://docs.google.com/document/d/1IEEjmKP9iYhrzVpu4PjIl_LBgY0avQqvIuRVQhuxZkQ/edit?usp=sharing
 - Heidi Stetzer: https://docs.google.com/document/d/1JsYgjoaFzSxPbUltIR7fAe2pegmQf-zVrH_lgMN6mgA/edit?usp=sharing
 - Azariah Mawoko:https://docs.google.com/document/d/18vGX0JKuJ5vacjCz8A7MHSJli1x7t6pxqzJDR0Acl7I/edit?usp=sharing
+- Robert Hogsed https://docs.google.com/document/d/16b7pMf2KMyDj9UJfIW7aY8kj-f0-WLqlgnEbPihHTrg/edit?usp=sharing
